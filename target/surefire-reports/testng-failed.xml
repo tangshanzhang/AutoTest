@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [suite1]">
+  <parameter name="string" value="string"/>
+  <test name="baidutest(failed)">
+    <classes>
+      <class name="com.app.AutoTest.TestDemo">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.app.AutoTest.TestDemo -->
+    </classes>
+  </test> <!-- baidutest(failed) -->
+</suite> <!-- Failed suite [suite1] -->

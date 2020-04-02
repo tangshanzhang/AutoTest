@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="suite1"  preserve-order="true"> 
-    <test name="baidutest">
+	<parameter name = "string" value = "${string}" />
+    <test name="baidutest" preserve-order="true">
         <classes>
             <class name="com.app.AutoTest.TestDemo" />
         </classes>
